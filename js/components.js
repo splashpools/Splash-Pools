@@ -7,15 +7,15 @@
 const headerHTML = `
 <header>
     <div class="content header-flex">
-        <div class="logo-wrapper">
+        <a href="index.html" class="logo-wrapper">
             <img src="img/logo.png" alt="Splash Pools Logo" class="logo-img">
-        </div>
+        </a>
         <nav>
             <a class="nav-link" href="index.html">Home</a>
             <a class="nav-link" href="#">Services</a>
             <!--<a class="nav-link" href="#">Portfolio</a>
             <a class="nav-link" href="#">Testimonials</a>-->
-            <a class="nav-link" href="#contact">Contact</a>
+            <a class="nav-link" href="contact-us.html">Contact</a>
             <a href="#contact" class="btn btn-primary">Get a Quote</a>
         </nav>
     </div>
@@ -27,7 +27,7 @@ const footerHTML = `
     <div class="max-w-1200 footer-grid">
         <div class="footer-section">
             <div class="logo-wrapper mb-10">
-                <img src="img/logo.png" alt="Splash Pools Logo" class="logo-img">
+                <img src="img/logo-white.png" alt="Splash Pools Logo" class="logo-img">
             </div>
             <p class="text-muted" style="font-size: 0.875rem; line-height: 1.6; margin-bottom: 2rem;">
                 Building premium aquatic experiences since 1998. Quality craftsmanship meets modern
@@ -82,7 +82,7 @@ const footerHTML = `
 
     <div class="max-w-1200"
         style="padding-top: 2rem; display: flex; justify-content: space-between; align-items: center; color: var(--slate-400); font-size: 0.75rem;">
-        <p>© 2024 Splash Pools & Construction Inc. All rights reserved.</p>
+        <p>© 2026 Splash Pools & Construction Inc. All rights reserved.</p>
         <div style="display: flex; gap: 1.5rem;">
             <a href="#">Privacy Policy</a>
             <a href="#">Terms of Service</a>
